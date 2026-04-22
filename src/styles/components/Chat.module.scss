@@ -1,0 +1,96 @@
+@import "../variables";
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+
+  .trophyIcon {
+    margin-right: 0.5rem;
+    color: #e2ae29;
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+.chat {
+  padding:0  1rem;
+  margin-bottom: 30px;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45vw;
+  height: 320px;
+  border-radius: 10px;
+
+  .chatHistory {
+    border-radius: 20px 0 !important;
+    background: $inputDiv;
+    flex-grow: 1;
+    overflow-y:scroll;
+    div{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .message_header {
+    color: #e3397d;
+    font-size: 14px;
+  }
+
+  .message {
+    padding: 0 10px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .inputContainer {
+    border-radius: 0 20px !important;
+    display: flex;
+    background-color: #313945;
+    padding:20px;
+    gap: 10px;
+
+    form {
+      width: 100%;
+    }
+
+    .input {
+      flex-grow: 1;
+      padding: 1rem;
+      width: 30vw;
+      border-radius: 10px;
+      border: 0;
+      background-color: #181d25;
+      color: #fff;
+    }
+
+    .sendButton {
+      padding: 1rem 3rem;
+      background: linear-gradient(90deg, rgba(227,57,125,1) 35%, rgba(252,95,70,1) 100%);
+      color: $text-color;
+      font-weight: 400;
+      font-size: large;
+      margin-left: 10px;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #ff4f41;
+      }
+    }
+  }
+}

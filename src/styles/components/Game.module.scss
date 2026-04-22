@@ -1,0 +1,57 @@
+// src/styles/components/Game.module.scss
+@import "../variables";
+
+.game {
+  color: $text-color;
+  // height: 10000px  !important;
+
+  // overflow: hidden;
+}
+
+.row{
+  display: flex;
+}
+
+.start_button {
+  background: linear-gradient(90deg, rgba(227,57,125,1) 35%, rgba(252,95,70,1) 100%);
+  color: $text-color;
+  font-weight: 500;
+  font-size: 18px;
+  width: 100%;
+  padding: 20px;
+  font-size: large;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+
+  &:disabled {
+    background-color: #cccccc !important;
+    cursor: not-allowed;
+  }
+}
+
+.topPane {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 1fr 2fr; /* Adjusted to properly define two equal columns */
+  gap: 20px; /* Optional: add some spacing between the columns */
+}
+
+.topPaneLeft {
+  margin-left: 20px;
+  color: $text-color;
+}
+
+.topPaneRight {
+  margin-right: 20px;
+  color: $text-color;
+}
+
+.bottomPane {
+  margin-left:20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  width: 100%;
+  color: $text-color;
+}

@@ -1,0 +1,16 @@
+@import "../variables";
+
+.layoutContainer {
+  // display: grid;
+  // grid-template-rows: auto 1fr;
+}
+
+.content {
+  // height: 10000px  !important;
+  
+  // display: grid;
+  // grid-template-columns: 1fr 2fr;
+  // gap: 20px;
+  // padding: 20px;
+  background-color: $background-color;
+}

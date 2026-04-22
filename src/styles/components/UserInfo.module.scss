@@ -1,0 +1,35 @@
+@import "../variables";
+
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  color: $text-color;
+
+  .infoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // flex-direction: column;
+    width: 12rem; /* Adjust width as needed */
+    // height: 70px; /* Adjust height as needed */
+    margin: 10px; /* Adjust margin as needed */
+    background: $inputDiv;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color: $text-color;
+    border: 1px solid rgb(88, 88, 88);
+
+    .icon {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #f39f17;
+    }
+
+    span {
+      margin-left: 10px;
+      font-size: 18px;
+    }
+  }
+}

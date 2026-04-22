@@ -1,0 +1,62 @@
+@import "../variables";
+
+.rankingContainer {
+  padding:0  1rem;
+  margin-bottom: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+
+  .trophyIcon {
+    margin-right: 0.5rem;
+    color: #e2ae29;
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+.tableContainer {
+  margin-top: 1rem;
+  border-radius: 10px;
+  // overflow: hidden;
+  overflow-y:auto;
+  background-color: #bc8585; /* Background color for the table container */
+}
+
+.table {
+  width: 45vw;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 0.75rem;
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .background1 {
+    background-color: #282c34;
+  }
+
+  .background2 {
+    background-color: #20232a;
+  }
+
+  .highlightRow {
+    background-color: #91908e;
+    color: #000;
+  }
+}
