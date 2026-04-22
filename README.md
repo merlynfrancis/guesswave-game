@@ -176,12 +176,6 @@ git push origin feature/cool-new-thing
 
 ---
 
-## 📜 License
-
-Released under the **MIT License** — do whatever you want with it, just don't blame me if the wave crashes.
-
----
-
 <div align="center">
 
 ### Made with 💜 and a lot of math by [@merlynfrancis](https://github.com/merlynfrancis)
