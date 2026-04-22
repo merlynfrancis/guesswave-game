@@ -117,8 +117,8 @@ guesswave/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/merlynfrancis/guesswave.git
-cd guesswave
+git clone https://github.com/merlynfrancis/guesswave-game.git
+cd guesswave-game
 
 # 2. Install dependencies
 npm install
@@ -151,17 +151,6 @@ To deploy your own fork:
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Persistent leaderboard across sessions (Firebase / Supabase)
-- [ ] Real multiplayer rooms — play against humans, not CPUs
-- [ ] Sound effects on round start / cashout
-- [ ] Achievement system (first win, 10x streak, etc.)
-- [ ] Stats dashboard — win rate, avg multiplier, ROI
-- [ ] Daily login rewards
-
----
-
 ## 🤝 Contributing
 
 Pull requests welcome. If it's a bigger change, open an issue first so we can talk about the direction.
@@ -178,7 +167,7 @@ git push origin feature/cool-new-thing
 
 <div align="center">
 
-### Made with 💜 and a lot of math by [@merlynfrancis](https://github.com/merlynfrancis)
+### Made with 💜 and a lot of math by [Merlyn Francis](https://github.com/merlynfrancis)
 
 _If this project made you smile — or made you rage-quit — drop a ⭐ on the repo._
 
